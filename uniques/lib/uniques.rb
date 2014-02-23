@@ -1,3 +1,6 @@
+require 'pry'
+
 def uniques(list)
-  "SOLUTION GOES HERE"
+  list = list.split(",")
+  list.uniq!.join(",")
 end
